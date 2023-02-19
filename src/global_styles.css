@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.header a:hover {
+  color: grey;
+}
+
+.header .menu {
+  display: flex;
+}
+
+.header .menu a {
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+.header .menu a.active {
+  color: grey;
+  border-bottom: 2px solid grey;
+  padding-bottom: 10px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services .card {
+  width: calc(33.3% - 20px);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px lightgrey;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.services .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.services .card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.services .card p {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.contact-us {
+  background-color: lightgrey;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.contact-us h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.contact-us form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-us form input, .contact-us form textarea {
+  width: calc(50% - 20px);
+  padding: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 10px 0px lightgrey;
+}
+
+.contact-us form textarea {
+  height: 200px;
+  resize: none;
+}
+
+.contact-us form button {
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-us .form-group button {
+  background-color: #3f51b5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
